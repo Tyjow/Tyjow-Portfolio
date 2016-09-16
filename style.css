@@ -125,6 +125,13 @@ h2 {
     transition: margin-left .5s;
     padding: 16px;
 }
+#main a {
+    text-decoration: none;
+    color: #ff944d;
+}
+#main a:hover {
+    color: #ff6600;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
