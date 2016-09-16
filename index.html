@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>Tyjow-Portfolio</title>
+
+	<!-- style CSS -->
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<span class="side-menu" onclick="openNav()">&#9776; Menu</span>
+
+<!--  Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption">
+  	<br>
+    <h2>Challenge 1</h2>
+    <br>
+    <p>Premier challenge de la formation pendant la période de "prairie"</p>
+    <br>
+    <p>Lien de la page <a href="https://tyjow.github.io/Challenge_1/" target="_blank">Create Pro</a>, ainsi que son code source <a href="https://github.com/Tyjow/Challenge_1/tree/gh-pages" target="_blank">Github</a></p>
+  </div>
+</div>
+
+<main>
+
+	<!-- Sidebar -->
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="https://tyjow.github.io/">Accueil</a>
+		<br><br>
+		<p>Create Pro</p>
+		<br>
+		<img id="myImg" src="img/create-pro.png" alt="" width="150" height="100">
+		<br><br>
+	</div>
+
+	<div id="main">
+		<header>
+			<h1>Platon Jonathan</h1>
+			<h2>Portfolio</h2>
+		</header>
+		<br>
+		<p>Voici les projets réaliser tout au long de la formation que j'ai suivi.</p>
+		<br>
+	  	<p>Ouvrez le menu pour selectionner le projet à visionner.</p>
+	  	<br>
+	</div>
+
+</main>
+
+<button class="js-ripples-disable disable">Cliquez ici pour arrêter l'animation</button>
+
+<div class="error"></div>
+
+</body>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.ripples.js" type="text/javascript"></script>
+<script src="js/water.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</html>
